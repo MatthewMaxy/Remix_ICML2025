@@ -10,7 +10,7 @@ Here is the PyTorch implementation of ''*Improving Multimodal Learning Balance a
 
 ## Motivation and Method
 
-<img src="./motivation.png" style="zoom:50%;" />
+![](./motivation.png)
 
 In this work, we address a long-standing but often overlooked problem in the field of balanced multimodal learning, namely **Modality Clash**. This issue arises from differences in the optimization directions of different modalities, which can lead to insufficient learning across all modalities:
 
@@ -20,7 +20,7 @@ In this work, we address a long-standing but often overlooked problem in the fie
 
 The pipeline of Data Remixing is as follows:
 
-<img src="./pipeline.png" style="zoom:50%;" />
+![](./pipeline.png)
 
 ## Code Instruction
 
