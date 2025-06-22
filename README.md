@@ -1,4 +1,6 @@
-# Codes of Improving Multimodal Learning Balance and Sufficiency through Data Remixing
+# Codes of Data Remixing
+
+## Introduction
 
 Here is the PyTorch implementation of ''*Improving Multimodal Learning Balance and Sufficiency through Data Remixing*'', which aims to alleviate modality imbalance and modality clash in multimodal learning by decoupling the multimodal input and reassembling by batch. Please refer to our [ICML 2025 paper](https://arxiv.org/abs/2506.11550) for more details.
 
@@ -8,9 +10,7 @@ Here is the PyTorch implementation of ''*Improving Multimodal Learning Balance a
 
 **Accepted by: 2025 Forty-Second International Conference on Machine Learning(ICML 2025)**
 
-## Motivation and Method
-
-![](./motivation.png)
+## Motivation
 
 In this work, we address a long-standing but often overlooked problem in the field of balanced multimodal learning, namely **Modality Clash**. This issue arises from differences in the optimization directions of different modalities, which can lead to insufficient learning across all modalities:
 
@@ -18,9 +18,13 @@ In this work, we address a long-standing but often overlooked problem in the fie
 
 + **Modality Clash** is **bidirectional**, which describes interference between modalities. *Even if modality balance is achieved*, differences between modalities may still lead to insufficient learning across **all modalities**.
 
+![](./motivation.jpg)
+
+## Method
+
 The pipeline of Data Remixing is as follows:
 
-![](./pipeline.png)
+![](./pipeline.jpg)
 
 ## Code Instruction
 
