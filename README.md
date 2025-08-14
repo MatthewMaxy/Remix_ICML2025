@@ -28,5 +28,42 @@ The pipeline of Data Remixing is as follows:
 
 ## Code Instruction
 
-+ Our code will be released in a period of time. If you need it soon, please contact us: xiaoyuma.kb@gmail.com
+### Environment 
 
+```bash
+conda create -n Remix python=3.10 -y
+conda activate Remix
+pip install -r requirements.txt
+```
+
+### Data Preparation 
+
+We adopted the approach described in [OGM-GE_CVPR2022](https://github.com/GeWu-Lab/OGM-GE_CVPR2022) to process all multimodal datasets.
+
+### Train Baseline and Remix Methods
+
+You can refer to the comments in `train.py` to understand the purpose of each hyperparameter and make the corresponding adjustments accordingly.
+
+```Bash
+# Baseline
+bash scripts/run_baseline.sh
+# Remix
+bash scripts/run_train.sh
+```
+
+## Citation
+
+If you find this work useful, please consider citing it.
+
+```
+@article{ma2025improving,
+  title={Improving Multimodal Learning Balance and Sufficiency through Data Remixing},
+  author={Ma, Xiaoyu and Chen, Hao and Deng, Yongjian},
+  journal={arXiv preprint arXiv:2506.11550},
+  year={2025}
+}
+```
+
+## Contact us
+
+If you have any detailed questions or suggestions, you can email us: **[xiaoyuma.kb@gmail.com](mailto:xiaoyuma.kb@gmail.com)** 
