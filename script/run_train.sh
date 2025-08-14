@@ -1,0 +1,1 @@
+python train.py --batch_size 64 --dataset CREMAD --train --epoch 60 --gpu_ids 2,3 --warmup 10

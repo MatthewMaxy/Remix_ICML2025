@@ -1,0 +1,1 @@
+python baseline.py --dataset CREMAD --train --batch_size 64 --epoch 60 --gpu_ids 2,3
